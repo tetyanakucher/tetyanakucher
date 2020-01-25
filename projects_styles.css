@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+dt  { font-weight: bold;
+	border-bottom: 1px solid rgba(168, 168, 168, 1.20)
+
+}
+
+dd {
+	display: block;
+	margin: 1% 5% 1.5% 2%;
+}
+
+p    { font-size: 12pt;
+	 color:#3E3A02;
+	
+}
+
+p.right {text-align: right;
+	margin-right: 180px;
+}
+
+
+img.iml {
+	float: left;
+	
+	margin: 1% 2% 2% 1%
+}
+
+img.imr {float: right;
+	
+	margin: 1% 2% 2% 1% }
+
+a {text-decoration: underline;
+	color: #006E0F; }
+	
+a:hover {color: #D90000;
+		font-weight: bold; }
+
+
+

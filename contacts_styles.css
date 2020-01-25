@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2 	{ color: green;
+
+}
+
+p    { font-size: 14pt;
+	
+	 color:#3E3A02;
+}
+
+
+
+article ul li:first-of-type{
+		list-style-image: url("icons/phone.png");
+}
+article ul li:nth-of-type(2){
+		list-style-image: url("icons/email.png");
+}
+article ul li:last-of-type{
+		list-style-image: url("icons/linkedin.png");
+}
+
+/* Left Column Styles */
+
+section#leftColumn {
+	clear: left;
+	float: left;
+	text-align: right;
+	width: 37.5%;
+	list-style-position: inside;
+	padding-right: 2.5%;
+	padding-top: 20px;
+}
+
+section#leftColumn p {font-size: 12pt;
+						line-height: 2em;}
+
+
+
+/* Right Column Styles */
+
+section#rightColumn {
+	padding-top: 20px;
+	float: left;
+	width: 58%; }
+
+section#rightColumn img {float: left;
+						margin: 1% 4% 8% 0%;}
+
+section#rightColumn ul {font-size: 12pt;
+						padding-left: 45%;}
+
+section#rightColumn ul li {padding-left: 10px;
+				line-height: 2em;}
+
+section#rightColumn ul li a {text-decoration: none;
+	color: #E54B9D;}
+
+section#rightColumn ul li a:hover {color: #1DAD00;
+									text-decoration: underline;
+								font-weight:400;}
+
+footer { clear:left;
+	
+	float: bottom;}

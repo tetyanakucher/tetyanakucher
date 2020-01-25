@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h2 	{ color: white;
+	background-color: #045C00;
+	text-align: center;
+}
+
+dt  { font-weight: bold;
+	border-bottom: 1px solid rgba(168, 168, 168, 1.20)
+
+}
+
+dd {
+	display: block;
+	margin: 1% 5% 1.5% 2%;
+}
+
+p    { font-size: 14pt;
+	 color:#3E3A02;
+}
+
+#right {float: right;
+		margin: -4% 2% 0% 1%}
+

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2 	{ color: green;
+
+}
+
+p    { font-size: 14pt;
+	
+	 color:#3E3A02;
+}
+
+article img {
+	float: left;
+	
+	margin: 1% 2% 2% 1%;
+}
+
+div { color:#ADADAD;
+		text-align: right;
+		padding-left: 35%;
+		padding-bottom: 20px;
+		font-size: 12px;}
